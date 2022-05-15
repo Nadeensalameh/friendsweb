@@ -1,0 +1,69 @@
+.AroundAllFrance .divAroundTitleFrance img {
+    width: 100%;
+    height: 100%;
+}
+
+.AroundAllFrance .divAroundTitleFrance {
+    top: 10%;
+    width: 100%;
+    height: 400px;
+}
+
+.AroundAllFrance .divAroundTitleFrance .flag {
+    width: 550px;
+    height: 100%;
+    transform: translate(0%, 0%);
+    opacity: 0.8;
+}
+
+.AroundAllFrance .divAroundTitleFrance .food {
+    transform: translate(68.5%, -101%);
+    width: 800px;
+    height: 400px;
+    opacity: 0.9;
+}
+
+.AroundAllFrance .divAroundTitleFrance p {
+    font-size: x-large;
+    width: 700px;
+    transform: translate(85%, -380%);
+    color: rgb(255, 255, 255);
+    background-color: rgba(4, 6, 99, 0.733);
+}
+
+.AroundAllFrance .AroundTraditionalRecipie img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.AroundAllFrance .AroundRecipie .AroundTabs {
+    top: 36%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.8);
+    height: 100%;
+
+}
+
+.AroundAllFrance .AroundRecipie .AroundTabs .AroundTabPanel img {
+    width: 400px;
+    height: 400px;
+    left: 0%;
+}
+
+.AroundAllFrance .AroundRecipie .AroundTabs .AroundTabPanel h1 {
+    top: 36%;
+    right: 50%;
+
+}
+
+.AroundAllFrance .AroundRecipie .AroundTabs .AroundTabList {
+    color: rgb(201, 235, 211);
+    font-size: 30px;
+    background-color: rgba(13, 44, 102, 0.781);
+}
+
+.AroundAllFrance .AroundRecipie .AroundTabs .AroundTabList :hover {
+    background-color: rgba(194, 21, 21, 0.8);
+    color: rgb(255, 255, 255);
+}

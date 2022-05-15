@@ -1,0 +1,69 @@
+.AroundAllGreece .divAroundTitleGreece img {
+    width: 100%;
+    height: 100%;
+}
+
+.AroundAllGreece .divAroundTitleGreece {
+    top: 10%;
+    width: 100%;
+    height: 400px;
+}
+
+.AroundAllGreece .divAroundTitleGreece .flag {
+    width: 550px;
+    height: 100%;
+    transform: translate(0%, 0%);
+    opacity: 0.6;
+}
+
+.AroundAllGreece .divAroundTitleGreece .food {
+    transform: translate(68.5%, -101%);
+    width: 800px;
+    height: 400px;
+    opacity: 0.9;
+}
+
+.AroundAllGreece .divAroundTitleGreece p {
+    font-size: xx-large;
+    width: 700px;
+    transform: translate(85%, -300%);
+    color: rgb(253, 250, 250);
+    background-color: rgba(11, 36, 175, 0.603);
+}
+
+.AroundAllGreece .AroundTraditionalRecipie img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.AroundAllGreece .AroundRecipie .AroundTabs {
+    top: 36%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.8);
+    height: 100%;
+
+}
+
+.AroundAllGreece .AroundRecipie .AroundTabs .AroundTabPanel img {
+    width: 400px;
+    height: 400px;
+    left: 0%;
+}
+
+.AroundAllGreece .AroundRecipie .AroundTabs .AroundTabPanel h1 {
+    top: 36%;
+    right: 50%;
+
+}
+
+.AroundAllGreece .AroundRecipie .AroundTabs .AroundTabList {
+    color: rgb(201, 235, 211);
+    font-size: 30px;
+    background-color: rgba(178, 230, 250, 0.781);
+}
+
+.AroundAllGreece .AroundRecipie .AroundTabs .AroundTabList :hover {
+    background-color: rgba(65, 54, 224, 0.8);
+    color: rgb(255, 255, 255);
+}

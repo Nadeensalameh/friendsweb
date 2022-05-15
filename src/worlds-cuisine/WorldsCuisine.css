@@ -1,0 +1,196 @@
+.WorldsCuisine .divAroundTitle {
+    height: 300px;
+    width: 100%;
+    top: 10%;
+    background: url('/public/images/titleimage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.WorldsCuisine {
+    background: url('/public/images/background24.jpeg.jpg');
+
+}
+
+.WorldsCuisine .divAroundTitle h1 {
+    width: 700px;
+    margin-top: 0%;
+    text-align: justify;
+    background-color: rgb(0, 0, 0, 0.7);
+    color: rgb(235, 160, 47);
+    border: 2px solid rgb(238, 190, 101);
+    margin-bottom: 30px;
+    font-family: 'BIZ UDGothic', sans-serif;
+}
+
+.WorldsCuisine .divAroundTitle p {
+    font-size: xx-large;
+    width: 500px;
+    text-align: justify;
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
+    border: 3px solid rgba(79, 189, 57, 0.5);
+    font-family: 'BIZ UDGothic', sans-serif;
+
+}
+
+.WorldsCuisine .divAroundSelect {
+    border: 3px solid rgba(240, 139, 25, 0.5);
+    background-color: rgb(0, 0, 0, 0.7);
+    width: 750px;
+    height: 300PX;
+    transform: translate(35%, 15%);
+    top: 55%;
+    font-family: 'BIZ UDGothic', sans-serif;
+    font-size: xx-large;
+}
+
+.WorldsCuisine .divAroundSelect h1 {
+    margin-bottom: 7px;
+    color: rgb(233, 175, 51);
+    font-family: 'BIZ UDGothic', sans-serif;
+}
+
+.WorldsCuisine .divAroundSelect .BUTTONS {
+    transform: translate(8%, 30%);
+
+}
+
+.WorldsCuisine .divAroundSelect .BUTTONS button {
+    margin-bottom: 30px;
+    height: 50px;
+    margin-left: 7px;
+    background-color: rgb(7, 51, 13);
+    color: beige;
+    font-family: 'BIZ UDGothic', sans-serif;
+    font-size: larger;
+    width: 150px;
+}
+
+.WorldsCuisine .divAroundSelect .BUTTONS button:hover {
+    background-color: rgb(89, 179, 47);
+    color: black;
+}
+
+.WorldsCuisine .divAroundSelect .BUTTONS a {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.WorldsCuisine .card {
+    padding: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-decoration: none;
+    border: 4px solid #e07904;
+    margin: 20px;
+}
+
+.WorldsCuisine .card .inner {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(8, 31, 37, 0.9);
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+
+.WorldsCuisine .card .inner .title {
+    text-align: center;
+    font-size: 50px;
+    color: #ff9a02;
+    text-shadow: 0px 2px 2px #d4af06;
+    position: relative;
+    margin: 0 0 20px 0;
+
+
+}
+
+.WorldsCuisine .card {
+    height: 300px;
+    width: 400PX;
+    padding: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-decoration: none;
+    border: 4px solid #0b545e;
+    margin: 20px;
+}
+
+.WorldsCuisine .card12 {
+    background-image: url("/public/images/flags/japan.jpeg");
+    background-size: cover;
+
+}
+
+.WorldsCuisine .card1 {
+    background-image: url("/public/images/flags/india.jpeg");
+    background-size: cover;
+
+
+}
+
+.WorldsCuisine .card2 {
+    background-image: url("/public/images/flags/brazil.jpeg");
+    background-size: cover;
+
+}
+
+.WorldsCuisine .card3 {
+    background-image: url("/public/images/flags/Turkey.jpeg");
+    background-size: cover;
+
+}
+
+.WorldsCuisine .card4 {
+    background-image: url("/public/images/flags/mexico.jpeg");
+    background-size: cover;
+
+}
+
+.WorldsCuisine .card5 {
+    background-image: url("/public/images/flags/costarica.jpeg");
+    background-size: cover;
+
+}
+
+.WorldsCuisine .card6 {
+    background-image: url("/public/images/flags/france.jpeg");
+    background-size: cover;
+
+}
+
+.WorldsCuisine .card7 {
+    background-image: url("/public/images/flags/italy.jpeg");
+    background-size: cover;
+
+}
+
+.WorldsCuisine .card8 {
+    background-image: url("/public/images/flags/greece.jpeg");
+    background-size: cover;
+
+}
+
+.WorldsCuisine .card9 {
+    background-image: url("/public/images/flags/morocco.jpeg");
+    background-size: cover;
+
+}
+
+.WorldsCuisine .card10 {
+    background-image: url("/public/images/flags/egypt.jpeg");
+    background-size: cover;
+
+}
+
+.WorldsCuisine .card11 {
+    background-image: url("/public/images/flags/southafrica.jpeg");
+    background-size: cover;
+
+}

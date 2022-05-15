@@ -1,0 +1,391 @@
+.divAroundall {
+   height: 100%;
+   background-color: rgb(16, 40, 44);
+}
+
+
+.divAroundall .divAroundTitle {
+   height: 496px;
+}
+
+.divAroundall .divAroundTitle button {
+   transform: translate(-270%, -1000%);
+   width: 200px;
+   height: 70px;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT6dcy2RuPxlb5v6PruLecns5F8QRtlET-Hg&usqp=CAU);
+   border: 0;
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Shadows Into Light', cursive;
+
+}
+
+.divAroundall .divAroundTitle button a {
+   color: #213135;
+   text-decoration: none;
+   font-size: 35px;
+
+}
+
+
+
+.divAroundall .divAroundTitle .bigimg {
+   height: 500px;
+   transform: translate(81%, -131.5%);
+
+
+}
+
+
+.divAroundall .divAroundTitle .global {
+   width: 400px;
+   height: 400px;
+   animation: rotation 20s infinite linear;
+   position: absolute;
+   top: 20%;
+   left: 8.5%;
+
+
+}
+
+.rotate {
+   animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+   from {
+      transform: rotate(0deg);
+   }
+
+   to {
+      transform: rotate(359deg);
+   }
+}
+
+
+.wrapper {
+   display: flex;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+}
+
+.divAroundall .divAroundTitle .wrapper h1 {
+   transform: translate(-63%, -270%);
+   max-width: 50%;
+   font-size: 60px;
+   text-align: center;
+   color: #540032;
+   font-family: 'Pacifico', cursive;
+   font-family: 'Shadows Into Light', cursive;
+
+}
+
+
+.title {
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT6dcy2RuPxlb5v6PruLecns5F8QRtlET-Hg&usqp=CAU);
+   background-attachment: fixed;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+
+}
+
+.divAroundall .tabbed {
+   min-height: 100vh;
+   background-image: url('/public/images/background24.jpeg.jpg');
+   background-size: cover;
+}
+
+.divAroundall .tabbed .AroundTabs {
+   top: 36%;
+   width: 100%;
+   background-image: url('/public/images/background24.jpeg.jpg');
+   background-size: cover;
+
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabList {
+   color: rgb(238, 187, 20);
+   font-size: xx-large;
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Shadows Into Light', cursive;
+   /* border: 3px solid rgb(37, 82, 94, 0.7); */
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabList :hover {
+   background-color: #f1b613;
+   color: rgb(0, 0, 0);
+}
+
+.divAroundall .tabbed .AroundTabs img {
+   width: 1046px;
+   height: 600px;
+   transform: translate(14.5%, 0%);
+   opacity: 0.8;
+}
+
+.divAroundall .tabbed .AroundTabs .aboutUsPara {
+   font-size: xx-large;
+   height: 400px;
+   width: 750px;
+   color: rgb(222, 237, 236);
+   transform: translate(40%, -135%);
+   background-color: rgb(4, 39, 34, 0.6);
+
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel {
+   background-image: url('/public/images/background24.jpeg.jpg');
+   background-size: cover;
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .tilesWrap {
+   padding: 0;
+   margin: 50px auto;
+   margin-bottom: 50px;
+   list-style: none;
+   text-align: center;
+   height: 100%;
+
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .ArticlesDiv {
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT6dcy2RuPxlb5v6PruLecns5F8QRtlET-Hg&usqp=CAU);
+   color: #062527;
+   font-size: 50px;
+   text-align: center;
+}
+
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .tilesWrap li {
+   display: inline-block;
+   width: 20%;
+   min-width: 200px;
+   max-width: 230px;
+   padding: 80px 20px 40px;
+   position: relative;
+   vertical-align: top;
+   margin: 10px;
+   font-family: 'helvetica', san-serif;
+   min-height: 25vh;
+   background: #1c3035;
+   border: 1px solid #252727;
+   text-align: left;
+
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .tilesWrap li h2 {
+   font-size: 114px;
+   margin: 0;
+   color: #ec7f02;
+   position: absolute;
+   opacity: 0.2;
+   top: 50px;
+   right: 10px;
+   transition: all 0.3s ease-in-out;
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .tilesWrap li h3 {
+   font-size: 30px;
+   color: #ff9307;
+   margin-bottom: 5px;
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .tilesWrap li p {
+   font-size: 16px;
+   line-height: 18px;
+   color: #b7b7b7;
+   margin-top: 5px;
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .tilesWrap li button {
+   background: transparent;
+   border: 1px solid #b7b7b7;
+   padding: 10px 20px;
+   color: #b7b7b7;
+   border-radius: 3px;
+   position: relative;
+   transition: all 0.3s ease-in-out;
+   transform: translateY(-40px);
+   opacity: 0;
+   cursor: pointer;
+   overflow: hidden;
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .tilesWrap li button:before {
+   content: '';
+   position: absolute;
+   height: 100%;
+   width: 120%;
+   background: #b7b7b7;
+   top: 0;
+   opacity: 0;
+   left: -140px;
+   border-radius: 0 20px 20px 0;
+   z-index: -1;
+   transition: all 0.3s ease-in-out;
+
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .tilesWrap li:hover button {
+   transform: translateY(5px);
+   opacity: 1;
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .tilesWrap li button:hover {
+   color: #262a2b;
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .tilesWrap li button:hover:before {
+   left: 0;
+   opacity: 1;
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .tilesWrap li:hover h2 {
+   top: 0px;
+   opacity: 0.6;
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .tilesWrap li:before {
+   content: '';
+   position: absolute;
+   top: -2px;
+   left: -2px;
+   right: -2px;
+   bottom: -2px;
+   z-index: -1;
+   background: #fff;
+   transform: skew(2deg, 2deg);
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .tilesWrap li:after {
+   content: '';
+   position: absolute;
+   width: 40%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   background: rgba(255, 255, 255, 0.02);
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .tilesWrap li:nth-child(1):before {
+   background: #0c5c5a;
+   background: -webkit-linear-gradient(to right, #ec7f02, #0c5c5a);
+   background: linear-gradient(to right, #ec7f02, #0c5c5a);
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .tilesWrap li:nth-child(2):before {
+   background: #0c5c5a;
+   background: -webkit-linear-gradient(to right, #C9FFBF, #0c5c5a);
+   background: linear-gradient(to right, #C9FFBF, #0c5c5a);
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .tilesWrap li:nth-child(3):before {
+   background: #C9FFBF;
+   background: -webkit-linear-gradient(to right, #ffc500, #C9FFBF);
+   background: linear-gradient(to right, #ffc500, #C9FFBF);
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .tilesWrap li:nth-child(4):before {
+   background: #ec7f02;
+   background: -webkit-linear-gradient(to right, #0c5c5a, #ec7f02);
+   background: linear-gradient(to right, #0c5c5a, #ec7f02);
+}
+
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .onAUSTRALIA {
+   color: rgba(0, 0, 0, 0.1);
+   background-color: rgba(0, 0, 0, 0.05);
+   transform: translate(30%, -120%);
+   width: 100px;
+   height: 100px;
+   border: 0;
+}
+
+
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .onBRAZIL {
+   color: rgba(0, 0, 0, 0.1);
+   background-color: rgba(0, 0, 0, 0.05);
+   transform: translate(-780%, -180%);
+   width: 100px;
+   height: 100px;
+   border: 0;
+}
+
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .onTURKEY {
+   color: rgba(0, 0, 0, 0.1);
+   background-color: rgba(0, 0, 0, 0.05);
+   transform: translate(-1080%, -2100%);
+   width: 50px;
+   height: 20px;
+   border: 0;
+}
+
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .onINDIA {
+   color: rgba(0, 0, 0, 0.1);
+   background-color: rgba(0, 0, 0, 0.05);
+   transform: translate(1430%, -400%);
+   width: 60px;
+   border-radius: 30%;
+   height: 100px;
+   border: 0;
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .onCHINA {
+   color: rgba(0, 0, 0, 0.1);
+   background-color: rgba(0, 0, 0, 0.05);
+   transform: translate(410%, -700%);
+   width: 200px;
+   border-radius: 40%;
+   height: 70px;
+   border: 0;
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .onCANADA {
+   color: rgba(0, 0, 0, 0.1);
+   background-color: rgba(0, 0, 0, 0.05);
+   transform: translate(-20%, -630%);
+   width: 200px;
+   height: 90px;
+   border: 0;
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .h1ForBRAZIL {
+   background-color: #be9409a8;
+   width: 700px;
+   transform: translate(47%, -80%);
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .h1ForTURKEY {
+   background-color: #be9409a8;
+   width: 700px;
+   transform: translate(47%, -70%);
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .h1ForINDIA {
+   background-color: #be9409a8;
+   width: 700px;
+   transform: translate(47%, -150%);
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .h1ForCHINA {
+   background-color: #be9409a8;
+   width: 700px;
+   transform: translate(47%, -110%);
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .h1ForCANADA {
+   background-color: #be9409a8;
+   width: 700px;
+   transform: translate(47%, -150%);
+}
+
+.divAroundall .tabbed .AroundTabs .AroundTabPanel .h1ForAUSTRALIA {
+   background-color: #be9409a8;
+   width: 700px;
+   transform: translate(47%, -80%);
+}

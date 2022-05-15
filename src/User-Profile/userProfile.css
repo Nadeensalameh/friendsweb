@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* justify-content: center; */
+  /* align-items: center; */
+  font-family: "Righteous", cursive;
+  min-height: 100vh;
+  background-image: url('/public/images/background24.jpeg.jpg');
+  background-size: cover;
+}
+
+.container {
+  /* max-width: 200vw; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 35px;
+  margin: 0 auto;
+  padding: 40px 0;
+
+}
+
+.card {
+  position: relative;
+
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  background: #083a3b;
+  border-radius: 15px;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+}
+
+.face {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.face1 {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  color: white;
+
+}
+
+
+.face2 {
+  transition: 0.5s;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 10em;
+  color: #fff;
+  transition: 0.5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+
+.card:hover .face.face2 {
+  height: 60px;
+}
+
+h2 {
+  font-size: 50px;
+
+}
+
+
+.card:nth-child(1) .face.face2 {
+  background-image: linear-gradient(40deg,
+      #c2881d 0%,
+      #184249 45%,
+      #042935 100%);
+  border-radius: 15px;
+}
+
+.card:nth-child(2) .face.face2 {
+  background-image: linear-gradient(40deg,
+      #083f41 0%,
+      #5e3b07 45%,
+      #062525 100%);
+  border-radius: 15px;
+}
+
+.card:nth-child(3) .face.face2 {
+  background-image: linear-gradient(40deg,
+      #97670c 0%,
+      #05252c 45%,
+      #627479 100%);
+  border-radius: 15px;
+}
+
+.container .card .face .content .divAroundProfilebuttons button {
+  width: 500px;
+  height: 80px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #8fdaeb;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT6dcy2RuPxlb5v6PruLecns5F8QRtlET-Hg&usqp=CAU);
+  border: 0;
+  margin-bottom: 2px;
+}
+
+.container .card .face .content .divAroundProfilebuttons button a {
+  text-decoration: none;
+  color: #7ad0e4;
+
+}
+
+.container .card .face .content .editDiv {
+  align-items: center;
+  color: #7ad0e4;
+}
+
+.container .card .face .content .editDiv input {
+  background-color: rgb(0, 0, 0, 0.1);
+}
+
+.container .card .face .content .editDiv label {
+  color: #7ad0e4;
+
+}

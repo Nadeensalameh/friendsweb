@@ -1,0 +1,115 @@
+.divAroundAllSignin {
+    /* background-image: url('/public/images/centralperkimg2.png');
+    background-size: cover; */
+    width: 220vh;
+    height: 95vh;
+    top: 50px;
+}
+
+.divAroundAllSignin .formpage {
+    text-align: center;
+    justify-content: center;
+    margin-left: 50%;
+    margin-right: 30%;
+    padding-top: 20%;
+    height: 300px;
+    top: 100px;
+
+
+}
+
+.divAroundAllSignin .formpage .divAroundForm {
+    height: 400px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.5);
+    padding: 50px 35px;
+    padding-top: 10px;
+}
+
+.divAroundAllSignin .formpage .divAroundForm .divAroundEmail {
+    top: 100px;
+
+}
+
+.divAroundAllSignin .formpage .divAroundForm .divAroundpassword {
+    top: 200px;
+}
+
+.divAroundAllSignin .formpage .divAroundForm .divAroundLinks {
+    top: 300px;
+}
+
+
+.formpage .signInWord {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    color: #1a0f02;
+    font-size: large;
+
+
+}
+
+.divAroundAllSignin .formpage .divAroundForm .lbl {
+    font-size: x-large;
+    display: block;
+    left: 20%;
+
+    /* font-weight: 500; */
+    font-size: xx-large;
+    margin-bottom: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+input[type=text],
+input[type=password] {
+    height: 30px;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    border: 2px solid #FC9918;
+
+
+
+}
+
+.formpage .divAroundForm .divAroundLinks button {
+    background-color: white;
+    color: black;
+    border: 2px solid #FC9918;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    width: 180px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+
+}
+
+.formpage .divAroundForm .divAroundLinks button:hover {
+    background-color: #FC9918;
+}
+
+.formpage .divAroundForm .divAroundLinks button a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
